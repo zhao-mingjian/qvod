@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_progress_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <com.zmj.qvod.widght.LoadingImageView
+            android:id="@+id/iv_loading_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/anim_yun" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="努力加载中..."
+            android:textColor="@color/colorTabText"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

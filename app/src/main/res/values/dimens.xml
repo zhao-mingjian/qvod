@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_bar_height">56dp</dimen>
+    <!--渐变时还没到布局全部就已经不透明了，距离 45dp-->
+    <dimen name="base_header_activity_slide_more">45dp</dimen>
+</resources>

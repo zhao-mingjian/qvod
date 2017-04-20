@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zmj.qvod">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.VideoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.VideoInfoActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.MovieTopActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.MovieDetailsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.WebViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.ImageBrowseActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

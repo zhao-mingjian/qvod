@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">快播</string>
+    <string name="app_content">路面畅通，随时可以开车~</string>
+
+    <string name="actionbar_search">搜索</string>
+
+    <string name="expand">展开</string>
+    <string name="shrink">收起</string>
+
+</resources>

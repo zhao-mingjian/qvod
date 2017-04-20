@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_douban_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/select_movie_item"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_douban_top"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_douban" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/iv_douban_top">
+
+        <TextView
+            android:id="@+id/tv_douban_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="豆瓣电影Top250"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_douban_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_douban_title"
+            android:layout_marginTop="9dp"
+            android:text="那些年我们一起看过的电影~"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_douban_below"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_arrow_right_gray" />
+    </RelativeLayout>
+
+</RelativeLayout>

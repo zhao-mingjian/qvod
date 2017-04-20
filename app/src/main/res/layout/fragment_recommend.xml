@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/rv_easy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_empty="@layout/view_empty"
+        app:layout_error="@layout/view_net_error"
+        app:layout_progress="@layout/default_loading_page" />
+
+</LinearLayout>

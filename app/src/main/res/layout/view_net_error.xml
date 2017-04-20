@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/error_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/no_net_img"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/ic_no_network" />
+
+        <TextView
+            android:id="@+id/view_net_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_net_img"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="网络居然不给力∑(っ °Д °;)っ" />
+
+        <TextView
+            android:id="@+id/view_net_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_net_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="重新加载"
+            android:textColor="@color/colorTheme" />
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_dim_bg"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/stackblur_default" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="95dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_movie_pic"
+            android:layout_width="125dp"
+            android:layout_height="165dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_200"
+            android:transitionName="@string/transition_movie_img" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/iv_movie_pic"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTheme"
+                android:textSize="17sp"
+                tools:text="评分:7.0分(905人评分)" />
+
+            <TextView
+                android:id="@+id/tv_details_direct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="导演："
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_details_actor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="演员："
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_details_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="类型："
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_details_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="上映日期："
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/tv_details_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="制片国家/地区："
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="首页" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/actionbar_search"
+            android:title="搜索" />
+
+        <item
+            android:id="@+id/nav_pic"
+            android:icon="@drawable/ic_main"
+            android:title="福利" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_user"
+            android:title="关于" />
+    </group>
+
+</menu>

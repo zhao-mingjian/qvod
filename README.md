@@ -3,8 +3,10 @@
 仿网易云音乐UI，整体采用MVP架构，在线视频，在线图片
 
 ### Download
-[跳转下载](https://raw.githubusercontent.com/zhao-mingjian/qvod/master/app/app-release.apk) 
+
+[跳转下载](https://raw.githubusercontent.com/zhao-mingjian/qvod/master/app/app-release.apk)
 <img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
+
 ## Screenshots
 
 <img width="173" height=“274” src="https://github.com/zhao-mingjian/qvod/blob/master/app/Screenshot_2017-04-21-10-09-06-848_com.zmj.qvod.png"></img>

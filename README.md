@@ -3,7 +3,7 @@
 仿网易云音乐UI，整体采用MVP架构，在线视频，在线图片
 
 ### Download                               
-　[![alt text](<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>)](https://fir.im/cloudreader)
+　[(<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>)](https://fir.im/cloudreader)
 
 ## Screenshots
 

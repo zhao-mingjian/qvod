@@ -1,6 +1,6 @@
 # qvod
 
-仿网易云音乐UI，整体采用MVP架构，在线视频，在线图片
+仿网易云音乐UI，在线视频，在线图片，整体采用 [MVP框架](https://github.com/Jude95/Beam)
 
 ### Download
 
@@ -22,7 +22,7 @@
 <img width="280" height=“590” src="https://github.com/zhao-mingjian/qvod/blob/master/app/ezgif-2-9b730dd432.gif"></img>
 
 ## End
-> 注意：此开源项目仅做学习交流使用，采用 [MVP框架](https://github.com/Jude95/Beam)
+> 注意：此开源项目仅做学习交流使用。
 
 ## About me
  - **QQ：** 1353095373

@@ -1,6 +1,6 @@
 # qvod
 
-仿网易云音乐UI，在线视频，在线图片，整体采用 [MVP架构](https://github.com/Jude95/Beam)
+《快播》，仿网易云音乐UI，整体采用MVP+RxJava+Retrofit，在线视频，在线图片。
 
 ### Download
 

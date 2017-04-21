@@ -3,8 +3,9 @@
 仿网易云音乐UI，整体采用MVP架构，在线视频，在线图片
 
 ### Download
+
 　[火速跳转](审核中)                                    
-　　<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"></img>
+　　<img width="100" height=“100” src="https://github.com/zhao-mingjian/qvod/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"></img>
 
 ## Screenshots
 

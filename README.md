@@ -5,7 +5,7 @@
 ### Download
 
 　[火速跳转](审核中)                                    
-　　<img width="100" height=“100” src="https://github.com/zhao-mingjian/qvod/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"></img>
+　　<img width="100" height=“100” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots
 

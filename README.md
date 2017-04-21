@@ -4,7 +4,7 @@
 
 ### Download
 
-[跳转下载](https://www.pgyer.com/qvodPlayer)
+###[跳转下载](https://www.pgyer.com/qvodPlayer)
 <img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots

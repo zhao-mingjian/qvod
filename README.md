@@ -4,7 +4,7 @@
 
 ### Download                               
 [火速跳转](https://fir.im/)
-<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img> "title")
+<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots
 

@@ -4,7 +4,7 @@
 
 ### Download
 　[火速跳转](https://fir.im/cloudreader)                                    
-　　<img width="200" height=“200” src="https://github.com/youlookwhat/CloudReader/blob/master/file/download.png"></img>
+　　<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots
 

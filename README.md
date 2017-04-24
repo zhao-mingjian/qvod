@@ -1,6 +1,6 @@
 # qvod
 
-《快播》，仿网易云音乐UI，整体采用MVP+RxJava+Retrofit，在线视频，在线图片。
+《快播》，仿网易云音乐UI，整体采用RxJava+Retrofit+MVP的架构，在线视频，在线图片
 
 ### Download
 

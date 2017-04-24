@@ -5,7 +5,7 @@
 ### Download
 
 [跳转下载](http://pre.im/qvodPlayer)
-#
+
 <img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots

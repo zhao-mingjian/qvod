@@ -5,7 +5,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.DynamicPagerAdapter;
+import com.jude.rollviewpager.adapter.LoopPagerAdapter;
 import com.zmj.qvod.R;
 import com.zmj.qvod.constant.ImageLoader;
 import com.zmj.qvod.module.bean.VideoInfo;
@@ -16,9 +18,13 @@ import java.util.List;
 /**
  * Created by zmj on 2016/2/6 0006.
  */
-public class ImageLoopAdapter extends DynamicPagerAdapter {
+public class ImageLoopAdapter extends LoopPagerAdapter {
 
     List<VideoInfo> banners;
+
+    public ImageLoopAdapter(RollPagerView viewPager) {
+        super(viewPager);
+    }
 
     @Override
     public View getView(ViewGroup container, int position) {
@@ -33,7 +39,7 @@ public class ImageLoopAdapter extends DynamicPagerAdapter {
     }
 
     @Override
-    public int getCount() {
+    public int getRealCount() {
         if (banners != null) {
             return banners.size();
         } else {

@@ -53,7 +53,7 @@ public class RollViewPagerItemView implements RecyclerArrayAdapter.ItemView {
         //过滤广告
         removeEmpty();
         //
-        adapter = new ImageLoopAdapter();
+        adapter = new ImageLoopAdapter(rollPagerView);
         adapter.setBanners(banners);
         rollPagerView.setHintView(new IconHintView(mContext, R.drawable.ic_page_indicator_focused, R.drawable.ic_page_indicator, JUtils.dip2px(10)));
         rollPagerView.setAdapter(adapter);

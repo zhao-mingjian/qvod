@@ -2,8 +2,6 @@ package com.zmj.qvod.utils;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Build;
 import android.view.WindowManager;
 
@@ -39,4 +37,5 @@ public class AppUtils {
         }
 
     }
+
 }

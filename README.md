@@ -1,11 +1,12 @@
 # qvod
 
-仿网易云音乐UI，整体采用MVP架构，在线视频，在线图片
+《快播》，仿网易云音乐UI，整体采用RxJava+Retrofit+MVP的架构，在线视频，在线图片
 
 ### Download
 
-　[火速跳转](审核中)                                    
-　　<img width="100" height=“100” src="https://github.com/zhao-mingjian/qvod/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"></img>
+[跳转下载](http://pre.im/qvodPlayer)
+
+<img width="200" height=“200” src="https://github.com/zhao-mingjian/qvod/blob/master/app/icon.png"></img>
 
 ## Screenshots
 
@@ -20,3 +21,11 @@
 <img width="280" height=“590” src="https://github.com/zhao-mingjian/qvod/blob/master/app/ezgif-2-0782ec2004.gif"></img>
 <img width="280" height=“590” src="https://github.com/zhao-mingjian/qvod/blob/master/app/ezgif-2-ee4e810eb9.gif"></img>
 <img width="280" height=“590” src="https://github.com/zhao-mingjian/qvod/blob/master/app/ezgif-2-9b730dd432.gif"></img>
+
+## End
+> 注意：此开源项目仅做学习交流使用。
+
+## About me
+ - **QQ：** 1353095373
+ - **Email：** 1353095373@qq.com
+ - **BLOG：**[CSDN](http://blog.csdn.net/z1353095373/article/details/70597831)

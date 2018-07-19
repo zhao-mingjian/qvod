@@ -47,6 +47,14 @@ public class MovieDetailsPresenter extends BeamBasePresenter<MovieDetailsActivit
     private MovieCastsAdapter adapter;
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        if (!TextUtils.isEmpty(getView().tvMovieIntro.getText().toString())) {
+            getView().llLoading.setStatus(LoadingLayout.Success);
+        }
+    }
+
+    @Override
     protected void onCreateView(@NonNull MovieDetailsActivity view) {
         super.onCreateView(view);
 

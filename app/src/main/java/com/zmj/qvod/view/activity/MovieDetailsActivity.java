@@ -2,7 +2,6 @@ package com.zmj.qvod.view.activity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
@@ -63,7 +62,6 @@ public class MovieDetailsActivity extends BeamBaseActivity<MovieDetailsPresenter
     @BindView(R.id.ll_movie_loading)
     public LoadingLayout llLoading;
 
-
     public static void startAction(Activity context, HotMovieBean.SubjectsBean positionData, ImageView imageView) {
         Intent intent = new Intent(context, MovieDetailsActivity.class);
         intent.putExtra("positionData", positionData);
@@ -94,19 +92,9 @@ public class MovieDetailsActivity extends BeamBaseActivity<MovieDetailsPresenter
     }
 
     private void initLoading() {
-        //加载中
-        llLoading.setStatus(LoadingLayout.Loading);
-        ImageView img = (ImageView) findViewById(R.id.iv_loading_progress);
-        // 加载动画
-        AnimationDrawable mAnimationDrawable = (AnimationDrawable) img.getDrawable();
-        // 默认进入页面就开启动画
-        if (!mAnimationDrawable.isRunning()) {
-            mAnimationDrawable.start();
-        }
         //网络错误之类的
         if (!JUtils.isNetWorkAvilable()) {
             llLoading.setStatus(LoadingLayout.No_Network);
-            return;
         }
     }
 

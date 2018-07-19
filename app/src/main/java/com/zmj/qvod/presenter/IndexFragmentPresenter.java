@@ -71,7 +71,12 @@ public class IndexFragmentPresenter extends BeamBasePresenter<IndexFragment> {
         if (videoRes == null) return;
         mTitleList.add("首页精选");
         mFragments.add(RecommendFragment.newInstance());
-        for (VideoType videoType : videoRes.list) {
+        for (int i = 0; i < videoRes.list.size(); i++) {
+            // 发现数据源<精彩推荐>列表小于等于一个电影，暂时过滤掉
+            if (i == 2) {
+                continue;
+            }
+            VideoType videoType = videoRes.list.get(i);
             if (!TextUtils.isEmpty(videoType.moreURL) && !TextUtils.isEmpty(videoType.title)) {
                 mTitleList.add(videoType.title);
                 mFragments.add(VideoListFragment.newInstance(videoType.moreURL));

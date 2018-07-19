@@ -17,6 +17,8 @@ import com.zmj.qvod.utils.StringUtils;
 import com.zmj.qvod.view.activity.VideoInfoActivity;
 import com.zmj.qvod.view.fragment.VideoListFragment;
 
+import java.util.Map;
+
 import rx.Subscription;
 
 /**
@@ -55,7 +57,9 @@ public class VideoListPresenter extends BeamListFragmentPresenter<VideoListFragm
 
     private void initData() {
         String url = getView().getArguments().getString("tab");
-        catalogId = StringUtils.getCatalogId(url);
+        // 解析URL
+        Map<String, String> map = StringUtils.URLRequest(url);
+        catalogId = map.get("catalogId");
     }
 
     private void initView() {
